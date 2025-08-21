@@ -3,13 +3,12 @@ package main
 import "fmt"
 
 func main() {
+
 	var name string = "Go Programmer"
-	age := 30
-	const Pi = 3.14
-	const greeting = "Hello, Go!"
-	fmt.Println(Pi)
-	fmt.Println(greeting)
-	fmt.Println("Name: ", name, "Age: ", age)
-	fmt.Println("Hello, World!")
-	fmt.Println("This is a simple Go program.")
+	var height float64 = 6.2
+	var isActive bool = true
+
+	fmt.Println("Name:", name)
+	fmt.Println("Height:", height)
+	fmt.Println("Is Active:", isActive)
 }
