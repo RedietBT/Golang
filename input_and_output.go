@@ -3,6 +3,8 @@ package main
 import "fmt";
 
 func main() {
-	fmt.Println("Welcome to Go programming!")
-	fmt.Print("This is a simple output .")
+	var num1, num2 int
+	fmt.Println("Enter two numbers suparated by space: ")
+	fmt.Scanf("%d %d", &num1, &num2)
+	fmt.Println("Sum, ", num1+num2)
 }
