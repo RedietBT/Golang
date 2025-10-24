@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func Basic_oprations() {
 	var age, isMember int = 25, 1
 
 	fmt.Println("Eligibile for Discount:", age > 18 && isMember == 1)
