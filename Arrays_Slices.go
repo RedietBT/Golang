@@ -5,7 +5,7 @@ import (
 	
 )
 
-func main() {
+func array() {
 
 	arr := [3]int{1, 2, 3}
 	fmt.Println("Array:", arr)
