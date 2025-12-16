@@ -11,6 +11,5 @@ func defer_panic_recover() {
 
 	fmt.Println("Before panic")
 	panic("crirtcal error occured!")
-	fmt.Println("This will not execute")
-
+	
 }
